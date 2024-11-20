@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
-VisualStudioVersion = 17.12.35506.116 d17.12
+VisualStudioVersion = 17.12.35506.116
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PokemonAPI.WebAPI", "PokemonAPI.WebAPI\PokemonAPI.WebAPI.csproj", "{67E505CC-87F7-417B-A176-C2389BF123CB}"
 EndProject
@@ -9,7 +9,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PokemonAPI.Domain", "Pokemo
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PokemonAPI.Service", "PokemonAPI.Service\PokemonAPI.Service.csproj", "{61639C0D-3BAD-4C08-BE60-10F710DC07EC}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PokemonAPI.Tests", "PokemonAPI.Tests\PokemonAPI.Tests.csproj", "{5823E09B-F7C0-41C4-9237-F7AE89AB4652}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PokemonAPI.Repository", "PokemonAPI.Repository\PokemonAPI.Repository.csproj", "{7BA68B05-1AEF-4E6D-9D24-270843DE513F}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -29,10 +29,10 @@ Global
 		{61639C0D-3BAD-4C08-BE60-10F710DC07EC}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{61639C0D-3BAD-4C08-BE60-10F710DC07EC}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{61639C0D-3BAD-4C08-BE60-10F710DC07EC}.Release|Any CPU.Build.0 = Release|Any CPU
-		{5823E09B-F7C0-41C4-9237-F7AE89AB4652}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{5823E09B-F7C0-41C4-9237-F7AE89AB4652}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{5823E09B-F7C0-41C4-9237-F7AE89AB4652}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{5823E09B-F7C0-41C4-9237-F7AE89AB4652}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7BA68B05-1AEF-4E6D-9D24-270843DE513F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7BA68B05-1AEF-4E6D-9D24-270843DE513F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7BA68B05-1AEF-4E6D-9D24-270843DE513F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7BA68B05-1AEF-4E6D-9D24-270843DE513F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

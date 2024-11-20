@@ -12,6 +12,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\PokemonAPI.Domain\PokemonAPI.Domain.csproj" />
+    <ProjectReference Include="..\PokemonAPI.Repository\PokemonAPI.Repository.csproj" />
     <ProjectReference Include="..\PokemonAPI.Service\PokemonAPI.Service.csproj" />
   </ItemGroup>
 

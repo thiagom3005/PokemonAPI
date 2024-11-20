@@ -1,27 +1,27 @@
-﻿using Newtonsoft.Json;
+﻿using System.Text.Json.Serialization;
 
 namespace PokemonAPI.Domain.DTOs
 {
     public class PokeApiResponse
     {
-        [JsonProperty("count")]
+        [JsonPropertyName("count")]
         public int Count { get; set; }
 
-        [JsonProperty("next")]
+        [JsonPropertyName("next")]
         public string Next { get; set; }
 
-        [JsonProperty("previous")]
+        [JsonPropertyName("previous")]
         public string Previous { get; set; }
 
-        [JsonProperty("results")]
+        [JsonPropertyName("results")]
         public List<PokeApiResult> Results { get; set; }
     }
     public class PokeApiResult
     {
-        [JsonProperty("name")]
+        [JsonPropertyName("name")]
         public string Name { get; set; }
 
-        [JsonProperty("url")]
+        [JsonPropertyName("url")]
         public string Url { get; set; }
     }
 }
