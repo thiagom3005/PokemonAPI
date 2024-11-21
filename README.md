@@ -16,7 +16,7 @@ Posteriormente foi dado seguimento a implementação de acordo com as tarefas de
 
 ### Pré-requisitos
 - SDK do .NET 8
-- SQL Server (ou qualquer outro banco de dados suportado)
+- SQLite
 
 ### Passos
 
